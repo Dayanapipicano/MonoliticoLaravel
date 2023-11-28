@@ -1,7 +1,8 @@
-@extends('layouts.formulario')
-
+@extends('layouts.plantilla')
 
 @section('content')
+
+  
     <div class="container">
         
             <h1 class="mt-4">Crear Producto<i class="fas fa-box-open"></i></h1>
@@ -23,9 +24,11 @@
                     </div>
 
 
+                
+
                     <div class="input-field">
                         <label for="archivo" class="form-label">Subir Archivo <i class="fas fa-upload"></i>:</label>
-                        <input type="file" class="form-control custom-file-input" name="image" placeholder="Imagen" required>
+                        <input type="file"  name="image" placeholder="Imagen" required>
                         <label class="custom-file-label" for="archivo">Selecciona un archivo</label>
                     </div>
 
